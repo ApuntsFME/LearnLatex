@@ -452,6 +452,9 @@ espacio, entonces, usamos el siguiente entorno
   Segunda línea
 \end{gather*}
 ```
+
+---
+
 Es importante no abusar de este entorno y reservarlo para
 los casos en los que sea estrictamente necesario,
 utilizando, siempre que sea posible
