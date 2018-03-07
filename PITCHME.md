@@ -221,6 +221,11 @@ principales conjuntos.
 | \ita | 1 | Pone en texto itálico el argumento |
 | \inv | 1 | Coloca la inversa del argumento |
 | \setb | 1 | Usado para hacer conjuntos. Coloca el argumento entre llaves |
+
+---
+
+| Comando | Argumentos | Descripción |
+| :--- | :--- | :--- |
 | \vbrack | 1 | Coloca el argumento entre "<>" |
 | \determinant | 1 | El argumento puede pasarse en forma matricial. Coloca el determinante del argumento |
 | \abs | 1 | Coloca el valor absoluto del argumento |
@@ -234,6 +239,11 @@ principales conjuntos.
 | \cal | 1 | Coloca el argumento en fuente caligrafica |
 | \im | 0 | Coloca Im |
 | \rg | 0 | Coloca rg |
+
+---
+
+| Comando | Argumentos | Descripción |
+| :--- | :--- | :--- |
 | \car | 0 | Coloca car |
 | \vol | 0 | Coloca vol |
 | \lp | 0 | Es equivalente a `\left(` |
