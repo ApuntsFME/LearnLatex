@@ -391,14 +391,12 @@ reales y que envía *x* a *f(x)*
   x &\mapsto f(x)
 \end{aligned}
 ```
-$$
-	\[
+$
 	\begin{aligned}
     	f \colon \mathbb{Z} &amp; \to \mathbb{R} \\
         x &amp; \mapsto f(x)
     \end{aligned}
-    \]
-$$
+$
 
 ---
 
