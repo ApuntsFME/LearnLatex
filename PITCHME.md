@@ -62,7 +62,7 @@ en el glosario.
   * `i)` en cualquier otro caso.
 * No se subrallará el texto.
 * Se usará, preferiblemente, `\[ ... \]` en lugar de
-	`\begin{equation*} ... \end{equation*}`.
+	```\begin{equation*} ... \end{equation*}```.
 
 ---
 
