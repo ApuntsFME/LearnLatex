@@ -6,8 +6,6 @@
 Se asume una noción básica de (como mínimo) la sintaxis de
 LaTeX.
 
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
-
 ---
 
 ## Atención
@@ -395,8 +393,8 @@ reales y que envía *x* a *f(x)*
 ```
 $$
 	\begin{aligned*}
-    	f \colon \z &\to \real \\
-        x &\mapsto f(x)
+    	f \colon \z & \to \real \\
+        x & \mapsto f(x)
     \end{aligned*}
 $$
 
