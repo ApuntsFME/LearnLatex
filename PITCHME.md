@@ -431,6 +431,9 @@ Para hacer listas ordenadas, usamos el entorno *enumerate*
   \item Último elemento
 \end{enumerate}
 ```
+
+---
+
 En este ejemplo, estamos enumerando en números romanos, que
 es el recomendado para proposiciones de varias
 declaraciones, aunque usaremos `(i)` si estamos listando
