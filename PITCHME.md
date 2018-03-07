@@ -60,7 +60,7 @@ en el glosario.
   * `1.` si estamos enumerando varios ejemplos (dentro del entorno).
   * `(i)` si estamos enumerando enunciados equivalentes.
   * `i)` en cualquier otro caso.
-* No se subrallará el texto.
+* No se subrayará el texto.
 * Se usará, preferiblemente, `\[ ... \]` en lugar de
 	```\begin{equation*} ... \end{equation*}```.
 
@@ -627,6 +627,8 @@ Ahora, declaramos los nodos de nuestro grafo con el comando
   \node[left=of B] {$\overline{B}$};
 \end{tikzpicture}
 ```
+
+---
 
 Este comando tiene un parametro opcional para especificar
 la posición del nodo luego, entre paréntesis, otorgamos
