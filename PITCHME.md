@@ -391,6 +391,12 @@ reales y que envía *x* a *f(x)*
   x &\mapsto f(x)
 \end{aligned}
 ```
+\[
+	\begin{aligned*}
+    	f \colon \z &\to \real \\
+        x &\mapsto f(x)
+    \end{aligned*}
+\]
 
 ---
 
