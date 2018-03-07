@@ -327,7 +327,11 @@ tanto a dentro del documento como a fuera del mismo.
 ### Referecias a dentro del mismo documento
 Para referenciar un teorema, una proposición o cualquier
 otra cosa, debemos añadir la etiqueta `\label` a aquello
-que queramos referenciar. Por ejemplo, si queremos
+que queramos referenciar.
+
+---
+
+Por ejemplo, si queremos
 referenciar el teorema *de Tales*
 
 ```tex
