@@ -261,6 +261,11 @@ principales conjuntos.
 | \ext | 0 | Coloca Ext |
 | \inte | 0 | Coloca Int |
 | \tr | 0 | Coloca tr |
+
+---
+
+| Comando | Argumentos | Descripción |
+| :--- | :--- | :--- |
 | \tq | 0 | Coloca t.q. |
 | \rie | 0 | Coloca Rie |
 | \upint | 0 | Coloca una integral superior |
