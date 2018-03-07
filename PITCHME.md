@@ -537,7 +537,10 @@ para realizar cosas más complejas, usaremos el entorno
     \end{array}
 \right)
 ```
-en el segundo argumento del entorno, colocamos `c` para una
+
+---
+
+En el segundo argumento del entorno, colocamos `c` para una
 columna centrada, `l` y `r` para columnas alineadas a izquierda
 y derecha respectivamente. Además, usamos `|`para colocar lineas verticales.
 
