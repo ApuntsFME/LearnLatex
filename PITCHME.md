@@ -391,12 +391,6 @@ reales y que envía *x* a *f(x)*
   x &\mapsto f(x)
 \end{aligned}
 ```
-$$
-	\begin{aligned}
-    	f \colon \mathbb{Z} &amp; \to \mathbb{R} \\
-        x &amp; \mapsto f(x)
-    \end{aligned}
-$$
 
 ---
 
@@ -410,6 +404,9 @@ Para declarar listas no ordenadas, usamos el entorno
   \item Último elemento
 \end{itemize}
 ```
+
+---
+
 Si trataís de comenzar un teorema, una proposición o una
 demostración de esta manera, notaréis que desaparece el
 salto de línea, para evitar esto, sencillamente usaremos
