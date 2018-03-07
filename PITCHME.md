@@ -40,12 +40,12 @@ sentido antihorario, a excepción de aquellos casos con una
 razón argumentada.
 * Siempre que sea posible se evitará el comando `\\`, poniendo
 un su lugar dos saltos de linia.
-* Es obligatorio puntuar las ecuaciones.
-* Se prohibe el uso de las mayúsculas excepto cuando las normas
-gramaticales así lo indican.
 
 ---
 
+* Es obligatorio puntuar las ecuaciones.
+* Se prohibe el uso de las mayúsculas excepto cuando las normas
+gramaticales así lo indican.
 * Los espacios vectoriales (como E o F) se escribirán con lo
 comando `\E` (o `\F`, respectivamente), aunque el comando no
 cambie nada.
@@ -53,16 +53,19 @@ cambie nada.
 * En las definiciones, la palabra definida deberá estar con
 el comando `\comando_def{palabra_definida}` para que aparezca
 en el glosario.
+
+---
+
 * El parámetro de los `enumerates` deberá ser:
   * `1.` si estamos enumerando varios ejemplos (dentro del entorno).
   * `(i)` si estamos enumerando enunciados equivalentes.
   * `i)` en cualquier otro caso.
-
----
-
 * No se subrallará el texto.
 * Se usará, preferiblemente, `\[ ... \]` en lugar de `\begin{equation*}
 ... \end{equation*}`.
+
+---
+
 * Para referenciar fórmulas o ecuaciones usaremos el comando `\eqref`.
 Para cualquier otro item lo haremos tal y como aparece originalmente en
 el documento.
