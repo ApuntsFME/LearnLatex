@@ -526,7 +526,7 @@ después de ```\hline```.
 
 #### Matrices con rayas (más complejas)
 para realizar cosas más complejas, usaremos el entorno
-```array``` rodeado de paréntesis, de la siguiente manera
+`array` rodeado de paréntesis, de la siguiente manera
 
 ```tex
 \left(
