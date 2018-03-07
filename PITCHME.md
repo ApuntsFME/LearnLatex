@@ -572,6 +572,8 @@ muy simple.
 
 ![grafo](https://github.com/ApuntsFME/LatexFME/blob/master/grafo.png)
 
+---
+
 Para hacer este grafo, usamos el entorno *tikzpicture*
 ```tex
 \begin{tikzpicture}
@@ -585,12 +587,15 @@ Ahora, declaramos los nodos de nuestro grafo con el comando
   \node[left=of B] {$\overline{B}$};
 \end{tikzpicture}
 ```
+
 Este comando tiene un parametro opcional para especificar
 la posición del nodo luego, entre paréntesis, otorgamos
 una *id* al nodo, en nuestro caso es una *B*, por último
 colocamos, entre llaves aquello que se verá. Es importante
 acabar cada instrucción con punto y coma, ya que tikz tiene
 su propio lenguaje ajeno a LaTeX.
+
+---
 
 Por último añadimos las flechas, con el comando ```edge```
 ```tex
@@ -605,6 +610,8 @@ Primero, observamos que el punto y coma lo colocamos
 después de colocar todas las flechas. Es decir, las flechas
 son propiedades del nodo. Vamos ahora a ver cómo se definen
 las flechas.
+
+---
 
 Empecemos por los comandos opcionales que le pasamos.
 Primero, *<-* nos indica que es una flecha y que va desde
