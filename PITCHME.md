@@ -123,14 +123,14 @@ identificarla.
 \end{proof}
 ```
 
+---
+
 ### Definición
 ```tex
 \begin{defi}[tituloOpcional]
   ...
 \end{defi}
 ```
-
----
 
 ### Corolario
 ```tex
@@ -286,7 +286,9 @@ haremos lo siguiente si es un título de una `chapter`:
 \chaptermark{Título corto para el header}
 ```
 
-Si el título de de una `section`:
+---
+
+Si el título es de una `section`:
 
 ```tex
 \section[Título obligatorio para el índice]
