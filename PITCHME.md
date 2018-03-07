@@ -1,13 +1,20 @@
+<!-- $theme: default -->
+
+
 # Normas básicas de LaTeX
 
 Se asume una noción básica de (como mínimo) la sintaxis de
 LaTeX.
+
+---
 
 ## Atención
 Estas normas están sujetas al uso del [preámbulo](https://github.com/ApuntsFME/LatexFME/blob/master/preamble_es.tex) que
 hemos creado y bajo ningún concepto se deben tomar como
 unas directrices a seguir fuera de este contexto ni
 se debe asumir que sean "buenas prácticas".
+
+---
 
 ## Índice
 * **[Normas de estilo](https://github.com/ApuntsFME/LatexFME/blob/master/normas_latex.md#normas-de-estilo)**
@@ -18,6 +25,8 @@ se debe asumir que sean "buenas prácticas".
 * **[Referencias](https://github.com/ApuntsFME/LatexFME/blob/master/normas_latex.md#referencias)**
 * **[Fragmentos comunes](https://github.com/ApuntsFME/LatexFME/blob/master/normas_latex.md#fragmentos-comunes)**
 * **[Paquete tikz](https://github.com/ApuntsFME/LatexFME/blob/master/normas_latex.md#paquete-tikz)**
+
+---
 
 ## Normas de estilo
 
@@ -34,6 +43,9 @@ un su lugar dos saltos de linia.
 * Es obligatorio puntuar las ecuaciones.
 * Se prohibe el uso de las mayúsculas excepto cuando las normas
 gramaticales así lo indican.
+
+---
+
 * Los espacios vectoriales (como E o F) se escribirán con lo
 comando `\E` (o `\F`, respectivamente), aunque el comando no
 cambie nada.
@@ -45,6 +57,9 @@ en el glosario.
   * `1.` si estamos enumerando varios ejemplos (dentro del entorno).
   * `(i)` si estamos enumerando enunciados equivalentes.
   * `i)` en cualquier otro caso.
+
+---
+
 * No se subrallará el texto.
 * Se usará, preferiblemente, `\[ ... \]` en lugar de `\begin{equation*}
 ... \end{equation*}`.
@@ -56,6 +71,8 @@ seguida de dos puntos, por ejemplo: `\label{teo:tales}`,
 `\label{prop:pr_prod_ext}`.
 * Citaremos texto con los comandos ` `` ... '' `, en lugar de `" ... "`.
 
+---
+
 ## Proposiciones, teoremas y demás
 
 En nuestro [preámbulo](https://github.com/ApuntsFME/LatexFME/blob/master/preamble_es.tex),
@@ -65,6 +82,8 @@ listado de todas ellas. Estos comandos deberán ser usados siempre que sea posib
 Aunque la mayoría de entornos tienen un título opcional, se
 recomienda no abusar de ellos y reservarlos para casos
 especiales.
+
+---
 
 ### Lemas
 ```tex
@@ -87,6 +106,8 @@ especiales.
 \end{prop}
 ```
 
+---
+
 ### Demostración
 Aunque se puede añadir un título opcional de la misma forma
 que con el resto de entornos, recomendamos no hacerlo en
@@ -106,6 +127,8 @@ identificarla.
 \end{defi}
 ```
 
+---
+
 ### Corolario
 ```tex
 \begin{col}[tituloOpcional]
@@ -120,6 +143,8 @@ identificarla.
 \end{example}
 ```
 
+---
+
 ### Ejercicio
 Es importante distinguir entre ejemplos y ejercicios. Los
 ejemplos son casos particulares resueltos, sin embargo, los
@@ -132,6 +157,8 @@ de aprender.
   ...
 \end{ej}
 ```
+
+---
 
 ### Teorema
 Aunque el título se pase en este entorno como parámetro
@@ -146,6 +173,8 @@ añadirá de forma automática.
 \end{teo}
 ```
 
+---
+
 ## Comandos útiles
 Aquí detallamos una lista de los commandos que hemos añadido
 al [preámbulo](https://github.com/ApuntsFME/LatexFME/blob/master/preamble_es.tex)
@@ -158,6 +187,8 @@ acuerdo. Además **recuerda añadir a esta sección el comando**.
 Para compilar usaremos el comando `make`, para evitar tiempos
 de compilación demasiado largos.
 
+---
+
 ### Conjuntos
 Estos comandos nos permiten tener un acceso más rápido a los
 principales conjuntos.
@@ -169,6 +200,10 @@ principales conjuntos.
 | \q | Conjunto de los números fraccionarios |
 | \cx | Conjunto de los números complejos |
 | \real | Conjunto de los números reales |
+
+---
+| Comando | Descripción |
+| :--- | :--- |
 | \E | Un espacio vectorial |
 | \Po | Un espacio proyectivo |
 | \Pa | Una partición o el *powerset* |
@@ -177,6 +212,8 @@ principales conjuntos.
 | \A | Un espacio afín |
 | \T | Una topología |
 | \B | Una base de una topología |
+
+---
 
 ### Otras utilidades
 | Comando | Argumentos | Descripción |
@@ -187,6 +224,11 @@ principales conjuntos.
 | \vbrack | 1 | Coloca el argumento entre "<>" |
 | \determinant | 1 | El argumento puede pasarse en forma matricial. Coloca el determinante del argumento |
 | \abs | 1 | Coloca el valor absoluto del argumento |
+
+---
+
+| Comando | Argumentos | Descripción |
+| :--- | :--- | :--- |
 | \Id | 0 | Coloca la identidad |
 | \bb | 1 | Coloca el argumento en funte de conjunto |
 | \cal | 1 | Coloca el argumento en fuente caligrafica |
@@ -198,6 +240,11 @@ principales conjuntos.
 | \rp | 0 | Es equivalente a `\right)` |
 | \lc | 0 | Es equivalente a `\left\{` |
 | \rc | 0 | Es equivalente a `\right\}` |
+
+---
+
+| Comando | Argumentos | Descripción |
+| :--- | :--- | :--- |
 | \nuc | 0 | Coloca Nuc |
 | \gr | 0 | Coloca gr |
 | \fr | 0 | Coloca Fr |
@@ -208,6 +255,8 @@ principales conjuntos.
 | \rie | 0 | Coloca Rie |
 | \upint | 0 | Coloca una integral superior |
 | \lowint | 0 | Coloca una integral inferior |
+
+---
 
 ## Títulos demasiado largos
 
@@ -231,6 +280,8 @@ En la primera linea cambiamos el título para la página actual
 y en la segunda el de todas la siguientes. El título especificado
 para el índice es obligatorio.
 
+---
+
 ## \input
 Cada tema estará en un fichero `.tex` diferente, para incluir
 todos los ficheros en el mismo PDF, en el `main.tex` usaremos
@@ -244,10 +295,14 @@ Incluye los contenidos del documento *tema_uno.tex*
 actual. Este comando es usado para reducir el tamaño de los
 documentos y facilitar así su edición.
 
+---
+
 ## Referencias
 
 En esta sección daremos las guías para hacer referencias
 tanto a dentro del documento como a fuera del mismo.
+
+---
 
 ### Referecias a dentro del mismo documento
 Para referenciar un teorema, una proposición o cualquier
@@ -264,7 +319,11 @@ referenciar el teorema *de Tales*
 En este caso, el comando `\label` toma como argumento
 *teo:tales*. Es importante que este argumento sea **único**, es
 por ello que colocamos el *teo:* delante, para reducir las
-posibles colisiones. Ahora, para referenciar este teorema
+posibles colisiones.
+
+---
+
+Ahora, para referenciar este teorema
 usaremos el commando `\ref`
 
 ```tex
@@ -274,6 +333,8 @@ usaremos el commando `\ref`
 que toma como argumento el mismo que hemos puesto en `\label`,
 por eso es importante que sea único. Podemos usar `\eqref`
 si queremos que el numero referenciado aparezca entre paréntesis.
+
+---
 
 ### Referencias a fuera del documento
 Aquí solo cubrimos la referencia a URLs, el resto de casos
@@ -288,10 +349,14 @@ Para colocar un enlace a una URL, usamos el comando `\href`
 En este caso, la palabra *texto* se podrá clickar y nos
 llevaría a la URL *https://www.url.com*.
 
+---
+
 ## Fragmentos comunes
 Aquí se detalla una serie de fragmentos que suelen comunes
 en la escritura de los apuntes y su uso es recomendado (en
 lugar de comandos alternativos).
+
+---
 
 ### Declaración de funciones
 Aquí detallamos una función que va de los enteros a los
@@ -302,6 +367,9 @@ reales y que envía *x* a *f(x)*
   x &\mapsto f(x)
 \end{aligned}
 ```
+
+---
+
 ### Listas no ordenadas
 Para declarar listas no ordenadas, usamos el entorno
 *itemize*
@@ -325,6 +393,8 @@ la instrucción `\item[]` de la siguiente manera:
 \end{itemize}
 ```
 
+---
+
 ### Listas ordenadas
 Para hacer listas ordenadas, usamos el entorno *enumerate*
 ```tex
@@ -339,6 +409,8 @@ es el recomendado para proposiciones de varias
 declaraciones, aunque usaremos `(i)` si estamos listando
 elementos que son equivalentes o `1.` si estamos listando
 ejemplos (dentro del entorno correspondiente).
+
+---
 
 ### Ecuaciones en varias líneas
 A menudo, nos encontramos en una situación en la cual
@@ -359,6 +431,24 @@ utilizando, siempre que sea posible
 \]
 ```
 
+---
+
+### Cadena de equivalencias
+Es común (sobre todo de las asignaturas de álgebra), que nos
+encontremos con una larga cadena de equivalencias que nos llevan
+a demostrar un resultado, en ese caso, usamos:
+```tex
+\begin{aligned*}
+    Left &= intermedio1 \\
+    &= intermedio2 \\
+    ...
+    &= intermedion \\
+    &= Right
+\end{aligned*}
+```
+
+---
+
 ### Matrices
 Para declarar una matriz usamos
 ```tex
@@ -373,6 +463,8 @@ filas por ```\\```.
 Para matrices con corchetes, podemos usar el entorno
 *bmatrix*, que se comporta exactamente igual que
 *pmatrix* que usamos para matrices con paréntesis.
+
+---
 
 ### Matrices con rayas
 De nuevo, recordemos que podemos usar el entorno
@@ -393,6 +485,28 @@ dividida en 4 partes
 Es importante notar que no colocamos una nueva fila
 después de ```\hline```.
 
+---
+
+#### Matrices con rayas (más complejas)
+para realizar cosas más complejas, usaremos el entorno
+```array``` rodeado de paréntesis, de la siguiente manera
+
+```tex
+\left(
+    \begin{array}{c|c}
+        A & B \\
+        \hline
+        C & D
+    \end{array}
+\right)
+```
+en el segundo argumento del entorno, colocamos `c` para una
+columna centrada, `l` y `r` para columnas alineadas a izquierda
+y derecha respectivamente. Además, usamos `|`para colocar lineas verticales.
+
+Nota: este código es equivalente al de la diapositiva anterior.
+
+---
 
 ### Casos
 Es común encontrarnos con una función definida a trozos o
@@ -409,6 +523,8 @@ añadir `&` para especificar cuando se aplica ese caso.
 Existe también un entorno que se comporta igual que este,
 pero con la llave a la derecha, `rcases`.
 
+---
+
 ### Número de elementos
 Amenudo nos encontramos con situaciones en las que tenemos
 que especificar el número de elementos en una suma, o en
@@ -419,6 +535,8 @@ ejemplo el producto de *f* realizado *p* veces
 ```tex
 \overbrace{f \cdots f}{p}
 ```
+
+---
 
 ### Condiciones de varias líneas
 No es raro encontrarse en situaciones en las cuales tenemos
@@ -431,6 +549,20 @@ prod(n,r) = nr \quad
 \substack{\forall n in \n \\ \forall r \in \real}
 ```
 Dentro de `\substack` separamos las líneas por `\\`.
+
+---
+
+### Anotaciones en igualdades
+No es rara la notación sobre un símbolo de igualdad para
+indicar la razón por la cual la igualdad es cierta. Para
+emplear esta notación, usaremos el comando ```stackrel```
+de la siguiente manera:
+
+```tex
+Right \stackrel{Por ...}{=} Left
+```
+
+---
 
 ## Paquete tikz
 El paquete *tikz* es un paquete muy potente usado para la
