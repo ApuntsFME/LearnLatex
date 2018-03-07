@@ -61,7 +61,7 @@ en el glosario.
   * `(i)` si estamos enumerando enunciados equivalentes.
   * `i)` en cualquier otro caso.
 * No se subrayará el texto.
-* Se usará, preferiblemente, `\[ ... \]` en lugar de
+* Se usará, preferiblemente, ``` \[ ... \] ``` en lugar de
 	```\begin{equation*} ... \end{equation*}```.
 
 ---
