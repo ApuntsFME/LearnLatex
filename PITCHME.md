@@ -506,7 +506,11 @@ De nuevo, recordemos que podemos usar el entorno
 Para colocar líneas verticales, crearemos una columna
 más, que rellenaremos con el comando ```\vline``` y para
 crear líneas horizontales usaremos el comando
-```\hline```. Aquí tenemos un ejemplo de una matriz
+```\hline```.
+
+---
+
+Aquí tenemos un ejemplo de una matriz
 dividida en 4 partes
 ```tex
 \begin{pmatrix}
