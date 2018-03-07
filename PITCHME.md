@@ -239,13 +239,13 @@ principales conjuntos.
 | \cal | 1 | Coloca el argumento en fuente caligrafica |
 | \im | 0 | Coloca Im |
 | \rg | 0 | Coloca rg |
+| \car | 0 | Coloca car |
+| \vol | 0 | Coloca vol |
 
 ---
 
 | Comando | Argumentos | Descripción |
 | :--- | :--- | :--- |
-| \car | 0 | Coloca car |
-| \vol | 0 | Coloca vol |
 | \lp | 0 | Es equivalente a `\left(` |
 | \rp | 0 | Es equivalente a `\right)` |
 | \lc | 0 | Es equivalente a `\left\{` |
