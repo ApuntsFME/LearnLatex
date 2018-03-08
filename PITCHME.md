@@ -28,7 +28,7 @@ se debe asumir que sean "buenas prácticas".
 
 ---
 
-## Normas de estilo
+@title[Normas de estilo]
 
 Se asume que la normas más básicas de estilo son aplicadas,
 aquí nombraremos algunas normas más especificas.
