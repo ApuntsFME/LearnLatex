@@ -610,8 +610,6 @@ generación de gráficos. Aquí solo damos unas leves
 pinceladas de cómo usar este paquete, para hacer un grafo
 muy simple.
 
-![grafo](https://github.com/ApuntsFME/LatexFME/blob/master/grafo.png)
-
 ---
 
 Para hacer este grafo, usamos el entorno *tikzpicture*
